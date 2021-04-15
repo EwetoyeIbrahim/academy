@@ -15,7 +15,11 @@
         'web',
     ],
     'data': [
+        'security/ir.model.access.csv',
         'templates.xml',
+    ],
+    'demo': [
+        'demo.xml',
     ],
     'installable': True,
 }
