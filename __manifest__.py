@@ -12,7 +12,7 @@
     in Odoo ERP system
     ''',
     'depends': [
-        'web',
+        'website',
     ],
     'data': [
         'security/ir.model.access.csv',
