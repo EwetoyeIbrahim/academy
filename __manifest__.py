@@ -17,6 +17,7 @@
     'data': [
         'security/ir.model.access.csv',
         'templates.xml',
+        'views.xml'
     ],
     'demo': [
         'demo.xml',

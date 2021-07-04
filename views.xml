@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="action_academy_teachers" model="ir.actions.act_window">
+    <field name="name">Academy teachers</field>
+    <field name="res_model">academy.teachers</field>
+  </record>
+
+  <menuitem id="menu_academy" name="Academy" sequence="0" />
+  <menuitem id="menu_academy_content" name="Academy Content" parent="menu_academy" />
+  <menuitem id="menu_academy_content_teachers" action="action_academy_teachers" parent="menu_academy_content" />
+</odoo>
