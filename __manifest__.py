@@ -11,9 +11,7 @@
     This module is used to show how to build a website
     in Odoo ERP system
     ''',
-    'depends': [
-        'website',
-    ],
+    'depends': ['website', 'mail'],
     'data': [
         'security/ir.model.access.csv',
         'templates.xml',
