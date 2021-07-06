@@ -11,11 +11,12 @@
     This module is used to show how to build a website
     in Odoo ERP system
     ''',
-    'depends': ['website', 'mail'],
+    'depends': ['website_sale'],
     'data': [
         'security/ir.model.access.csv',
         'templates.xml',
-        'views.xml'
+        'views.xml',
+        'data.xml'
     ],
     'demo': [
         'demo.xml',
